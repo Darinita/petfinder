@@ -1,17 +1,19 @@
-  .descripcion{
-    text-align: justify;
-    margin: 10px 40px 0 40px;
-    font-size: 18px;
-  }
+@import '../../assets/css/colors.scss';
 
-  .donacion{
-    font-size: 25px;
-    color: #5b97a3;
-    font-weight:bold;
-    margin-top: 20px;
-  }
+.descripcion {
+  text-align: justify;
+  margin: 10px 40px 0 40px;
+  font-size: 18px;
+}
 
-  .icono{
-      color: whitesmoke;
-      margin-left: 5px;
-  }
+.donacion {
+  font-size: 25px;
+  color: #5b97a3;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.icono {
+  color: $white;
+  margin-left: 5px;
+}

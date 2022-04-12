@@ -1,62 +1,74 @@
-#menu {
-  position: absolute;
-  right: 0;
-  width: 800px;
-  margin-right: 10px;
-  display: inline-block;
-}
+@import "../../assets/css/colors.scss";
+@import "../../assets/css/fonts.scss";
 
-ul {
-  list-style: none;
-  text-align: right;
-}
-#menu li > a {
-  background-color: whitesmoke;
-  color: cadetblue;
-  padding: 10px;
-  display: block;
-  text-decoration: none;
-  font-family: "Lobster", cursive;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 5px;
-}
-#menu li > a:hover {
-  color: whitesmoke;
-  background-color: cadetblue;
-}
-#menu > li {
-  display: inline-block;
-  margin-right: 5px;
-}
-.lista-desplegable {
-  display: none;
-  position: absolute;
-  text-align: left;
-  padding-left: 0;
-}
-li:hover .lista-desplegable {
-  display: block;
-}
-#menu li > ul > li {
-  margin-bottom: 2px;
-}
-#logo h1 {
-  font-size: 40px;
-  color: #f0edbb;
-  font-family: "Lobster", cursive;
-  display: inline-block;
-  margin: 0;
-  letter-spacing: 3px;
-  font-weight: bold;
-  margin-left: 10px;
-}
-#logo h4 {
-  display: inline-block;
-  margin: 0;
-  color: #dee3d5;
-  background-color: cadetblue;
-  font-style: italic;
-  border-radius: 3px;
-  margin-left: 10px;
+header {
+  #logo {
+    display: inline-block;
+    h1 {
+      font-size: 40px;
+      color: #f0edbb;
+      font-family: $menu-font;
+      margin: 0;
+      letter-spacing: 3px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    h4 {
+      margin: 0;
+      color: #dee3d5;
+      background-color: $blue;
+      font-style: italic;
+      border-radius: 3px;
+      margin-left: 10px;
+    }
+  }
+
+  nav {
+    display: inline;
+    #menu {
+      position: absolute;
+      right: 0;
+      width: 800px;
+      margin-right: 10px;
+      display: inline-block;
+      list-style: none;
+      text-align: right;
+
+      > li {
+        display: inline-block;
+        margin-right: 5px;
+
+        a {
+          background-color: $white;
+          color: $blue;
+          padding: 10px;
+          display: block;
+          text-decoration: none;
+          font-family: $menu-font;
+          font-weight: bold;
+          font-size: 25px;
+          border-radius: 5px;
+          &:hover {
+            color: $white;
+            background-color: $blue;
+          }
+        }
+
+        &:hover .lista-desplegable{
+          display: block;
+        }
+
+        .lista-desplegable {
+          display: none;
+          position: absolute;
+          text-align: left;
+          padding-left: 0;
+          list-style: none;
+          li {
+            margin-top: 2px;
+          }
+        }
+      }
+    }
+  }
 }
