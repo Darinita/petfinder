@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { AdoptaGatosComponent } from './adopta-gatos/adopta-gatos.component';
+import { AdoptaPerrosComponent } from './adopta-perros/adopta-perros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    HomePageComponent
+    HomePageComponent,
+    AdoptaGatosComponent,
+    AdoptaPerrosComponent
   ],
   imports: [
     BrowserModule,
