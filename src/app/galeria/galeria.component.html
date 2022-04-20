@@ -1,0 +1,14 @@
+<div class="gallery">
+
+    <div class="card" *ngFor="let animal of animales">
+        <div class="img">
+            <img src="../../assets/cats/{{ animal.imagen }}" alt="gata de color gris en una cesta">
+        </div>
+        <div class="container">
+            <h3>Nombre: {{ animal.nombre }}</h3>
+            <h3>Sexo: {{ animal.sexo }}</h3>
+            <h3>Fecha de nacimiento: {{ animal.fechaNacimiento | date: 'dd/MM/y' }}</h3>
+        </div>
+    </div>
+
+</div>

@@ -1,7 +1,8 @@
 <app-menu></app-menu>
-<video id="v1" controls="false" autoplay="autoplay" loop="true" muted defaultmuted oncanplay="this.play()" onloadedmetadata="this.muted = true">
+<video id="v1" controls="false" autoplay="autoplay" loop="true" muted defaultmuted oncanplay="this.play()"
+  onloadedmetadata="this.muted = true; this.controls = false">
   <source src="assets/video/pexels-thirdman-9314158.mp4" type="video/mp4">
 </video>
 <div id="contenido-principal">
- <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>

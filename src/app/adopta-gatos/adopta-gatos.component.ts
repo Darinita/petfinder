@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Animal } from '../modelo/animal';
+import { AnimalService } from '../services/animal.service';
 
 @Component({
   selector: 'app-adopta-gatos',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdoptaGatosComponent implements OnInit {
 
-  constructor() { }
+  public gatos: Animal[] = [];
+
+  constructor(private animalService: AnimalService) {
+    this.gatos = animalService.obtenerGatos();
+   }
 
   ngOnInit(): void {
   }

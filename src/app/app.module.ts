@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AdoptaGatosComponent } from './adopta-gatos/adopta-gatos.component';
 import { AdoptaPerrosComponent } from './adopta-perros/adopta-perros.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AdoptaPerrosComponent } from './adopta-perros/adopta-perros.component';
     MenuComponent,
     HomePageComponent,
     AdoptaGatosComponent,
-    AdoptaPerrosComponent
+    AdoptaPerrosComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
