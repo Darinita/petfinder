@@ -12,7 +12,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2020-06-15"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-cats-coming-1543793.jpg"
+      imagen: "Lola.jpg"
     },
     {
       nombre:"Nube",
@@ -20,7 +20,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-06-15"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-eva-kubíčková-2083940.jpg"
+      imagen: "Nube.jpg"
     },
     {
       nombre:"Pepe",
@@ -28,7 +28,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-02-12"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-dan-galvani-sommavilla-4601871.jpg"
+      imagen: "Pepe.jpg"
     },
     {
       nombre:"Limon",
@@ -36,7 +36,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2019-09-21"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-dương-nhân-2817430.jpg"
+      imagen: "Limon.jpg"
     },
     {
       nombre:"Nilo",
@@ -44,7 +44,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-01-16"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-wojciech-kumpicki-2071882.jpg"
+      imagen: "Nilo.jpg"
     },
     {
       nombre:"Batman y Teo",
@@ -52,7 +52,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2020-08-14"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-arina-krasnikova-7725618.jpg"
+      imagen: "Batman y Teo.jpg"
     },
     {
       nombre:"Silver",
@@ -60,7 +60,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-07-10"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-omar-ramadan-6563627.jpg"
+      imagen: "Silver.jpg"
     },
     {
       nombre:"Oreo",
@@ -68,7 +68,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-08-23"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-dids-1327888.jpg"
+      imagen: "Oreo.jpg"
     },
     {
       nombre:"Mia",
@@ -76,7 +76,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-06-21"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-alena-koval-982300.jpg"
+      imagen: "Mia.jpg"
     },
     {
       nombre:"Leonardo",
@@ -84,7 +84,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2020-03-15"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-leonardo-de-oliveira-1770918.jpg"
+      imagen: "Leonardo.jpg"
     },
     {
       nombre:"Luna",
@@ -92,7 +92,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2021-04-11"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-lilartsy-1461622.jpg"
+      imagen: "Luna.jpg"
     },
     {
       nombre:"Sabrina",
@@ -100,7 +100,7 @@ export class AnimalService {
       fechaNacimiento: new Date("2020-12-30"),
       raza:"Común Europeo",
       localidad:"Madrid",
-      imagen: "pexels-ekaterina-bolovtsova-7445130.jpg"
+      imagen: "Sabrina.jpg"
     },
   ];
   obtenerGatos(){

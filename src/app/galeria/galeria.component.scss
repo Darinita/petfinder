@@ -1,10 +1,16 @@
 @import "../../assets/css/colors.scss";
+@import "../../assets/css/mixins_size.scss";
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-
+  @include mobile-down{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include laptop-down{
+    grid-template-columns: repeat(2, 1fr);
+  }
   .card {
     background-color: $white;
     box-shadow: 0 5px 8px 0;
@@ -48,4 +54,7 @@
     //     box-shadow: 0 6px 15px 0;
     //   }
   }
+  // @include size{
+  //   width: 500px;
+  // }
 }
