@@ -1,4 +1,5 @@
 @import '../../assets/css/colors.scss';
+@import '../../assets/css/fonts.scss';
 
 .descripcion {
   text-align: justify;
@@ -21,8 +22,13 @@
 .button-main.page{
   border-radius: 5px;
   padding: 15px 40px 16px 40px;
-  font-size: larger;
+  font-size: 25px;
+  font-family: $menu-font;
   background-color: #353030;
   color:$white; 
   border: none;
+  &:hover{
+    background-color: $blue;
+    color: $white;
+  }
 }
